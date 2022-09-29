@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free/css/all.min.css">
+    <script defer src="/F8_JAVASCRIPT_BASIC/MUSIC/index.js"></script>
+</head>
+<body>
+        <div class="player">
+                 <!--  Dashboard -->
+                <div class="container">
+                     <!-- Header -->
+                     <header>
+                            <h4>Now playing:</h4>
+                            <h2>String 57th & 9th</h2>
+                     </header>
+                     <!-- CD -->
+                     <div class="cd">
+                        <div class="cd-thumb" style="background-image: url(./assets/img/cd-thumb1.jpg)">
+
+                        </div>
+                     </div>
+
+                     <!-- Control -->
+                     <div class="control">
+                            <div class="btn btn-repeat">
+                                <i class="fa-solid fa-arrow-rotate-left"></i>
+                            </div>
+                            <div class="btn btn-backward">
+                                <i class="fa-solid fa-backward"></i>
+                            </div>
+                            <div class="btn btn-play-pause">
+                                    <i class="fa-solid fa-pause btn-pause"></i>
+                                    <i class="fa-solid fa-play btn-play"></i>
+                            </div>
+                            <div class="btn btn-forward">
+                                <i class="fa-solid fa-forward"></i>
+                            </div>
+                            <div class="btn btn-random">
+                                <i class="fa-solid fa-shuffle"></i>
+                            </div>
+                        </div>
+                        <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                        <audio id="audio" src=""></audio>
+                </div>
+                 <!-- Playlist -->
+                 <div class="playlist">
+                    
+                    
+                    
+                </div>
+    
+        </div>
+</body>
+</html>
